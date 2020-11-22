@@ -1,0 +1,16 @@
+.NewBoxForm {
+    padding: 0.5em;
+    background-color: #dddddd;
+    border-radius: 1em;
+    display: inline-block;
+}
+
+.NewBoxForm label {
+    display: block;
+}
+
+.NewBoxForm input {
+    display: block;
+    width: 250px;
+    margin-bottom: 0.5em;
+}

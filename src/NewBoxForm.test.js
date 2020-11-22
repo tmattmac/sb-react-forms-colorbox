@@ -1,11 +1,11 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import NewBoxForm from './NewBoxForm';
 
 test('renders', () => {
-  render(<App />);
+  render(<NewBoxForm />);
 });
 
 test('matches last snapshot', () => {
-  const { asFragment } = render(<App />);
+  const { asFragment } = render(<NewBoxForm />);
   expect(asFragment()).toMatchSnapshot();
 });

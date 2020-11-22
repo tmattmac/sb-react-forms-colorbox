@@ -1,0 +1,10 @@
+.Box {
+    margin: 0.5em;
+    position: relative;
+}
+
+.Box  button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
